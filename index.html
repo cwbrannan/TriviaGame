@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Movie Trivia</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<h1 class="font" style="color:black;">MOVIE TRIVIA</h1>
+
+<body>
+    <div class="background"></div>
+    <header>
+        <div class="center">
+        </div>
+    </header>
+    <div class="startBtn">
+        <button id="start">Press Start</button>
+    </div>
+    <div class="blanket hidden">
+        <div id="startClock">
+            <div class="question-container"></div>
+            <h3>Time left: </h3>
+            <br>
+            <span id="count"></span>
+        </div>
+        <ul id="quiz-question"></ul>
+        <div id="results">
+            <h2>Trivia Results:</h2>
+            <br>
+            <h3>Correct:</h3>
+            <span id="correctAns"></span>
+            <br>
+            <h3>Wrong:</h3>
+            <span id="wrongAns"></span>
+            <h3>Unanswered:</h3>
+            <span id="notAns"></span>
+        </div>
+        <div class="wrapper">
+            <button id="submit">See Results</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
